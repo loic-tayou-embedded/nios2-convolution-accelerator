@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="timer_0">
+  <columns>
+   <connections preferredWidth="175" />
+   <irq preferredWidth="34" />
+  </columns>
+ </systemtable>
+ <clocktable>
+  <columns>
+   <clockname preferredWidth="476" />
+   <clocksource preferredWidth="475" />
+   <frequency preferredWidth="459" />
+  </columns>
+ </clocktable>
+ <library expandedCategories="Library,Project/My Own IP Cores,Project" />
+ <window width="1920" height="1140" x="0" y="0" />
+ <hdlexample language="VHDL" />
+ <generation synthesis="VHDL" />
+</preferences>
