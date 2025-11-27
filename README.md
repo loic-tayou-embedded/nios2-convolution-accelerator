@@ -103,7 +103,7 @@ _ ModelSim pour simuler les blocs VHDL,
 	- Observer les résultats (temps d’exécution SW vs HW) via la console série.
 
 ## 📂 Organisation du dépôt
-
+```text
 src/        # VHDL : MAC_OP, FILTRE_MOYENNEUR, interface extended, additions, top-level…
 fit/        # Projet Quartus / Qsys (Nios II + Custom Instruction)
 software/   # Code C embarqué (HAL Nios II) pour tester et mesurer les performances
