@@ -12,7 +12,6 @@ chacun implémenté sous deux formes : **version software en C** et **version ac
 
 L’objectif est de mesurer le **speedup** apporté par le matériel à l’aide du **timestamp timer** de la HAL Nios II.
 
----
 
 ## 🎯 Objectifs du projet
 
@@ -23,7 +22,6 @@ L’objectif est de mesurer le **speedup** apporté par le matériel à l’aide
 - Développer les versions **C** des mêmes traitements pour servir de référence.
 - Mesurer les temps d’exécution avec le **timestamp timer** et comparer HW vs SW.
 
----
 
 ## 🧱 Architecture globale
 
@@ -36,7 +34,6 @@ L’objectif est de mesurer le **speedup** apporté par le matériel à l’aide
   - Timer de timestamp (utilisé via `alt_timestamp`),
   - JTAG UART (pour logs / traces éventuelles).
 
----
 
 ## 🔧 Blocs matériels (VHDL)
 
