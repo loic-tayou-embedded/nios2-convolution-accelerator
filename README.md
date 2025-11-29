@@ -8,7 +8,7 @@ Le projet met en œuvre deux traitements :
 - une **convolution 3×3** de type gaussienne sur une petite image (4×4),  
 - un **filtre moyenneur 1D** sur une ligne de données,
 
-chacun implémenté sous deux formes : **version software en C** et **version accélérée via une Custom Instruction**.
+chacun implémenté sous deux formes : **version software en C** et **version hardware via une Custom Instruction**.
 
 L’objectif est de mesurer le **speedup** apporté par le matériel à l’aide du **timestamp timer** de la HAL Nios II.
 
